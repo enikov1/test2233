@@ -1,0 +1,301 @@
+@media only screen and (min-width : 2440px) {
+	footer {
+		background-image: url('../img/footer-new.png');
+		padding: 334px 0;
+	}
+}
+
+@media only screen and (min-width : 1400px) {
+	.container {
+		max-width: 1400px;
+	}
+}
+
+@media only screen and (min-width : 1600px) {
+	.container {
+		max-width: 1500px;
+	}
+}
+
+@media only screen and (max-width : 1400px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+@media only screen and (max-width : 1199px) {
+	html {
+		font-size: 45%;
+	}
+	footer {
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media only screen and (max-width : 1050px) {
+	footer .address {
+		font-size: .9rem;
+	}
+}
+
+@media only screen and (max-width : 990px) {
+	footer h3 {
+		width: 100%;
+	}
+
+	footer ul li a,
+	footer .address {
+		font-size: .8rem;
+	}
+
+	footer .copyright {
+		font-size: .4rem;
+	}
+
+	footer .address:before {
+		width: 25px;
+		left: -20px;
+	}
+
+	footer .soc a {
+		margin: 2px;
+	}
+
+	footer .btn {
+		text-align: center;
+		font-size: .7rem;
+		padding: 8px 16px;
+	}
+}
+
+@media only screen and (max-width : 550px) {
+	footer {
+		padding: 30px 0;
+		background-image: none;
+		background-color: #000;
+	}
+
+	footer h3 {
+		width: 100%;
+		font-size: 2rem;
+	}
+
+	footer .half-row {
+		display: inline-block;
+		width: 48%;
+	}
+
+	footer ul li a {
+		font-size: .9rem;
+	}
+
+	footer .ord-first {
+		order: -1;
+	}
+
+	footer .address p {
+		font-size: .8rem;
+	}
+
+	footer .ord-first .btn {
+		margin: 14px 0;
+	}
+
+	footer .ord-second {
+		order: 0;
+	}
+
+	footer .order-third {
+		order: 1;
+	}
+
+	footer .soc {
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	footer .right {
+		text-align: left;
+		float: left;
+	}
+
+	footer .footer-link {
+		padding: 20px 0px 5px 0;
+		border-bottom: 2px solid #fff;
+	}
+
+	footer .ord-first .btn:before {
+		width: 150px;
+		content: '';
+		background-repeat: no-repeat;
+		height: 40px;
+		right: 0;
+		position: absolute;
+		top: 14px;
+		display: block;
+		background-image: url('../img/logo-contacts.jpg');
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+
+	footer .address:before {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width : 375px) {
+	footer h3 {
+		font-size: 1.9rem;
+	}
+
+	footer {
+		padding: 30px 0;
+		background-image: none;
+		background-color: #000;
+	}
+
+	footer .half-row {
+		display: inline-block;
+		width: 48%;
+	}
+
+	footer ul li a {
+		font-size: .9rem;
+	}
+
+	footer .ord-first {
+		order: -1;
+		position: relative;
+	}
+
+	footer .address p {
+		font-size: .7rem;
+	}
+
+	footer .ord-first .btn {
+		margin: 14px 0;
+	}
+
+	footer .ord-second {
+		order: 0;
+	}
+
+	footer .order-third {
+		order: 1;
+	}
+
+	footer .soc {
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	footer .right {
+		text-align: left;
+		float: left;
+	}
+}
+
+
+@media only screen and (max-width : 320px) {
+	footer h3 {
+		width: 100%;
+		font-size: 2rem;
+	}
+
+	footer .half-row {
+		display: inline-block;
+		width: 48%;
+	}
+
+	footer ul li a {
+		font-size: .9rem;
+	}
+
+	footer .ord-first {
+		order: -1;
+	}
+
+	footer .ord-first .btn {
+		margin: 14px 0;
+	}
+
+	footer .ord-second {
+		order: 0;
+	}
+
+	footer .order-third {
+		order: 1;
+	}
+
+	footer .soc {
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	footer .ord-first .btn:before {
+		width: 60px;
+		content: '';
+		background-repeat: no-repeat;
+		height: 60px;
+		right: 10px;
+		position: absolute;
+		top: 18px;
+		display: block;
+		background-image: url('../img/logo-contacts.jpg');
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+
+	footer .address p {
+		font-size: .7rem;
+	}
+}
+
+
+.w-20 {
+	width: 20rem;
+}
+.w-35 {
+	width: 54rem;
+}
+
+.h-16 {
+	height: 16rem;
+}
+
+.mb-70 {
+	margin-bottom: 7rem;
+}
+
+.pt-55 {
+	margin-top: 5.5rem;
+}
+.pl-55 {
+	padding-left: 5.5rem;
+}
+
+
+.h-8 {
+	max-height: 6rem;
+}
+.h-9 {
+	max-height: 9rem;
+}
+.h-10 {
+	max-height: 11rem;
+}
+.h-11 {
+	max-height: 13rem;
+}
+.h-12 {
+	max-height: 14rem;
+}
+.h-14 {
+	max-height: 17rem;
+}
+
+.fz-24 {
+	font-size: 2.4rem;
+}
