@@ -19,7 +19,7 @@
 
 @media only screen and (max-width : 1400px) {
 	html {
-		font-size: 50%;
+		font-size: 47%;
 	}
 }
 
@@ -70,6 +70,23 @@
 }
 
 @media only screen and (max-width : 550px) {
+
+	.animation1,
+.animation2,
+.animation3,
+.animation4,
+.animation5,
+.animation6,
+.animation7,
+.animation8,
+.animation9,
+.animation10,
+.animation11,
+.animation12,
+.animation13,
+.animation14 {
+	opacity: 1;
+}
 
 	html {
 		font-size: 35%;
@@ -150,6 +167,17 @@
 	}
 	.table-item {
 		width: 47.5%;
+		height: 10rem;
+	}
+
+	.section-shop {
+		padding-top: 7rem;
+		padding-bottom: 6rem;
+	}
+
+	.item-scale .line {
+		-webkit-animation: lineTop 2s forwards;
+		animation: lineTop 2s forwards;
 	}
 
 	.section-moto {
