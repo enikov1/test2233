@@ -29,7 +29,7 @@ body {
 	font-size: 1.6rem;
 	color: #000;
 	overflow-x: hidden;
-	/* transition: .7s all; */
+	transition: .7s all;
 }
 
 .btn {
@@ -272,7 +272,7 @@ header .nav li a {
 	margin-bottom: 1.6rem;
 	font-weight: 300;
 }
-.services-item span:first-child::before {
+.services-item > span:first-child::before {
 	content: "";
 	position: absolute;
 	top: 2rem;
@@ -305,9 +305,11 @@ header .nav li a {
 .section-table_left .title {
 	font-size: 3.6rem;
 	margin-bottom: 3.5rem;
+	display: block;
 }
 .section-table_left p {
 	font-size: 2.4rem;
+	display: block;
 }
 
 .table-item {
@@ -391,9 +393,12 @@ header .nav li a {
 	        justify-content: flex-end;
 	z-index: 1;
 
+	
+}
+.animation_grapTop {
 	-webkit-animation: grapTop 2s forwards;
 
-	        animation: grapTop 2s forwards;
+	animation: grapTop 2s forwards;
 }
 @-webkit-keyframes grapTop {
 	0% {
@@ -571,7 +576,7 @@ header .nav li a {
 .card-item_text b {
 	font-size: 3rem;
 }
-.card-item_text b span {
+.card-item_text b span:first-child {
 	font-size: 2.4rem;
 }
 .card-item.plus,
@@ -738,8 +743,11 @@ header .nav li a {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	border: 2px solid white;
+	
+}
+.animation_lineTop {
 	-webkit-animation: lineTop 2s forwards;
-	        animation: lineTop 2s forwards;
+	animation: lineTop 2s forwards;
 }
 @-webkit-keyframes lineTop {
 	0% {
@@ -1569,4 +1577,66 @@ footer .soc a {
 	src: url("../fonts/HelveticaBold.woff") format("woff");
 	font-style: normal;
 	font-weight: 700;
+}
+
+
+/* animation */
+
+.animation1,
+.animation2,
+.animation3,
+.animation4,
+.animation5,
+.animation6,
+.animation7,
+.animation8,
+.animation9,
+.animation10,
+.animation11,
+.animation12,
+.animation13,
+.animation14 {
+	opacity: 0;
+	transition: all .3s ease;
+}
+
+.a-visible {
+	opacity: 1;
+}
+
+.delay-100 {
+	animation-delay: 100ms;
+}
+.delay-200 {
+	animation-delay: 200ms;
+}
+.delay-300 {
+	animation-delay: 300ms;
+}
+.delay-400 {
+	animation-delay: 400ms;
+}
+.delay-500 {
+	animation-delay: 500ms;
+}
+.delay-600 {
+	animation-delay: 600ms;
+}
+.delay-700 {
+	animation-delay: 700ms;
+}
+.delay-800 {
+	animation-delay: 800ms;
+}
+.delay-900 {
+	animation-delay: 900ms;
+}
+.delay-1000 {
+	animation-delay: 1000ms;
+}
+.delay-1100 {
+	animation-delay: 1100ms;
+}
+.delay-1200 {
+	animation-delay: 1200ms;
 }
